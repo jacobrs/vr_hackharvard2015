@@ -403,6 +403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: 0
   smooth: 2
+  pendingZoom: 0
 --- !u!54 &306233866
 Rigidbody:
   m_ObjectHideFlags: 0
