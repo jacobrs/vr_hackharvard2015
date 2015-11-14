@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 2b36449838433234baaefc05cd675454
+timeCreated: 1440504827
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Vines_LOD0_MeshPart0__67366__1
+    100004: Vines_LOD0_MeshPart0__67366__2
+    100006: Vines_LOD0_MeshPart0__67366__3
+    100008: Vines_LOD0_MeshPart1__298074_
+    100010: Vines_LOD0_MeshPart2__298076_
+    100012: Vines_LOD0_MeshPart3__298078_
+    100014: ColumnVine1
+    100016: High
+    100018: Low
+    100020: Vines_LOD0_MeshPart0__67366__1_2
+    100022: Vines_LOD0_MeshPart0__67366__2_2
+    100024: Vines_LOD0_MeshPart0__67366__3_2
+    100026: Vines2_LOD1__1___1308310_
+    100028: Vines2_LOD1__1___1308310__1
+    100030: Vines2_LOD1__1___1308310__2
+    100032: Vines2_LOD1__1___1308310__3
+    100034: Vines3_LOD1__1___1308300_
+    100036: Vines3_LOD1__1___1308300__1
+    100038: Vines3_LOD1__1___1308300__2
+    100040: Vines3_LOD1__1___1308300__3
+    100042: Vines4_LOD1_MeshPart0__1308290_
+    100044: Vines4_LOD1_MeshPart0__1308290__1
+    100046: Vines4_LOD1_MeshPart0__1308290__2
+    100048: Vines4_LOD1_MeshPart0__1308290__3
+    100050: Vines4_LOD1_MeshPart1__1308288_
+    100052: Vines4_LOD1_MeshPart1__1308288__1
+    100054: Vines4_LOD1_MeshPart1__1308288__2
+    100056: Vines4_LOD1_MeshPart1__1308288__3
+    100058: Vines4_LOD1_MeshPart2__1308286_
+    100060: Vines5_LOD1_MeshPart0__1308240_
+    100062: Vines5_LOD1_MeshPart0__1308240__2
+    100064: Vines5_LOD1_MeshPart1__1308238_
+    100066: Vines5_LOD1_MeshPart1__1308238__1
+    100068: Vines5_LOD1_MeshPart1__1308238__2
+    400000: //RootNode
+    400002: Vines_LOD0_MeshPart0__67366__1
+    400004: Vines_LOD0_MeshPart0__67366__2
+    400006: Vines_LOD0_MeshPart0__67366__3
+    400008: Vines_LOD0_MeshPart1__298074_
+    400010: Vines_LOD0_MeshPart2__298076_
+    400012: Vines_LOD0_MeshPart3__298078_
+    400014: ColumnVine1
+    400016: High
+    400018: Low
+    400020: Vines_LOD0_MeshPart0__67366__1_2
+    400022: Vines_LOD0_MeshPart0__67366__2_2
+    400024: Vines_LOD0_MeshPart0__67366__3_2
+    400026: Vines2_LOD1__1___1308310_
+    400028: Vines2_LOD1__1___1308310__1
+    400030: Vines2_LOD1__1___1308310__2
+    400032: Vines2_LOD1__1___1308310__3
+    400034: Vines3_LOD1__1___1308300_
+    400036: Vines3_LOD1__1___1308300__1
+    400038: Vines3_LOD1__1___1308300__2
+    400040: Vines3_LOD1__1___1308300__3
+    400042: Vines4_LOD1_MeshPart0__1308290_
+    400044: Vines4_LOD1_MeshPart0__1308290__1
+    400046: Vines4_LOD1_MeshPart0__1308290__2
+    400048: Vines4_LOD1_MeshPart0__1308290__3
+    400050: Vines4_LOD1_MeshPart1__1308288_
+    400052: Vines4_LOD1_MeshPart1__1308288__1
+    400054: Vines4_LOD1_MeshPart1__1308288__2
+    400056: Vines4_LOD1_MeshPart1__1308288__3
+    400058: Vines4_LOD1_MeshPart2__1308286_
+    400060: Vines5_LOD1_MeshPart0__1308240_
+    400062: Vines5_LOD1_MeshPart0__1308240__2
+    400064: Vines5_LOD1_MeshPart1__1308238_
+    400066: Vines5_LOD1_MeshPart1__1308238__1
+    400068: Vines5_LOD1_MeshPart1__1308238__2
+    2300000: Vines_LOD0_MeshPart0__67366__1
+    2300002: Vines_LOD0_MeshPart0__67366__2
+    2300004: Vines_LOD0_MeshPart0__67366__3
+    2300006: Vines_LOD0_MeshPart1__298074_
+    2300008: Vines_LOD0_MeshPart2__298076_
+    2300010: Vines_LOD0_MeshPart3__298078_
+    2300012: Vines_LOD0_MeshPart0__67366__1_2
+    2300014: Vines_LOD0_MeshPart0__67366__2_2
+    2300016: Vines_LOD0_MeshPart0__67366__3_2
+    2300018: Vines2_LOD1__1___1308310__1
+    2300020: Vines2_LOD1__1___1308310__2
+    2300022: Vines2_LOD1__1___1308310__3
+    2300024: Vines3_LOD1__1___1308300__1
+    2300026: Vines3_LOD1__1___1308300__2
+    2300028: Vines3_LOD1__1___1308300__3
+    2300030: Vines4_LOD1_MeshPart0__1308290__1
+    2300032: Vines4_LOD1_MeshPart0__1308290__2
+    2300034: Vines4_LOD1_MeshPart0__1308290__3
+    2300036: Vines4_LOD1_MeshPart1__1308288__1
+    2300038: Vines4_LOD1_MeshPart1__1308288__2
+    2300040: Vines4_LOD1_MeshPart1__1308288__3
+    2300042: Vines4_LOD1_MeshPart2__1308286_
+    2300044: Vines5_LOD1_MeshPart0__1308240__2
+    2300046: Vines5_LOD1_MeshPart1__1308238__1
+    2300048: Vines5_LOD1_MeshPart1__1308238__2
+    3300000: Vines_LOD0_MeshPart0__67366__1
+    3300002: Vines_LOD0_MeshPart0__67366__2
+    3300004: Vines_LOD0_MeshPart0__67366__3
+    3300006: Vines_LOD0_MeshPart1__298074_
+    3300008: Vines_LOD0_MeshPart2__298076_
+    3300010: Vines_LOD0_MeshPart3__298078_
+    3300012: Vines_LOD0_MeshPart0__67366__1_2
+    3300014: Vines_LOD0_MeshPart0__67366__2_2
+    3300016: Vines_LOD0_MeshPart0__67366__3_2
+    3300018: Vines2_LOD1__1___1308310__1
+    3300020: Vines2_LOD1__1___1308310__2
+    3300022: Vines2_LOD1__1___1308310__3
+    3300024: Vines3_LOD1__1___1308300__1
+    3300026: Vines3_LOD1__1___1308300__2
+    3300028: Vines3_LOD1__1___1308300__3
+    3300030: Vines4_LOD1_MeshPart0__1308290__1
+    3300032: Vines4_LOD1_MeshPart0__1308290__2
+    3300034: Vines4_LOD1_MeshPart0__1308290__3
+    3300036: Vines4_LOD1_MeshPart1__1308288__1
+    3300038: Vines4_LOD1_MeshPart1__1308288__2
+    3300040: Vines4_LOD1_MeshPart1__1308288__3
+    3300042: Vines4_LOD1_MeshPart2__1308286_
+    3300044: Vines5_LOD1_MeshPart0__1308240__2
+    3300046: Vines5_LOD1_MeshPart1__1308238__1
+    3300048: Vines5_LOD1_MeshPart1__1308238__2
+    4300000: Vines_LOD0_MeshPart3__298078_
+    4300002: Vines_LOD0_MeshPart1__298074_
+    4300004: Vines_LOD0_MeshPart2__298076_
+    4300006: Vines_LOD0_MeshPart0__67366__1
+    4300008: Vines_LOD0_MeshPart0__67366__2
+    4300010: Vines_LOD0_MeshPart0__67366__3
+    4300012: Vines_LOD0_MeshPart0__67366__1_2
+    4300014: Vines_LOD0_MeshPart0__67366__2_2
+    4300016: Vines_LOD0_MeshPart0__67366__3_2
+    4300018: Vines3_LOD1__1___1308300__1
+    4300020: Vines3_LOD1__1___1308300__2
+    4300022: Vines3_LOD1__1___1308300__3
+    4300024: Vines2_LOD1__1___1308310__1
+    4300026: Vines2_LOD1__1___1308310__2
+    4300028: Vines2_LOD1__1___1308310__3
+    4300030: Vines5_LOD1_MeshPart0__1308240__2
+    4300032: Vines5_LOD1_MeshPart1__1308238__1
+    4300034: Vines5_LOD1_MeshPart1__1308238__2
+    4300036: Vines4_LOD1_MeshPart2__1308286_
+    4300038: Vines4_LOD1_MeshPart1__1308288__1
+    4300040: Vines4_LOD1_MeshPart1__1308288__2
+    4300042: Vines4_LOD1_MeshPart1__1308288__3
+    4300044: Vines4_LOD1_MeshPart0__1308290__1
+    4300046: Vines4_LOD1_MeshPart0__1308290__2
+    4300048: Vines4_LOD1_MeshPart0__1308290__3
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

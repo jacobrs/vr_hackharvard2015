@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: b77339d7f6395f641800f091818a7491
+timeCreated: 1440504854
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Boole_1
+    100004: Cloner_CourtyardInner
+    100006: Cloner_WaterEdge
+    100008: CourtyardInner
+    100010: CourtyardInner_2
+    100012: CutBottom
+    100014: ExtrudeWaterEdge
+    100016: ExtrudeWaterSink
+    100018: Focus
+    100020: Holder_CourtyardInner_0
+    100022: Holder_CourtyardInner_10_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    100024: Holder_CourtyardInner_11_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    100026: Holder_CourtyardInner_1_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    100028: Holder_CourtyardInner_2_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    100030: Holder_CourtyardInner_3_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    100032: Holder_CourtyardInner_4_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    100034: Holder_CourtyardInner_5_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    100036: Holder_CourtyardInner_6_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    100038: Holder_CourtyardInner_7_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    100040: Holder_CourtyardInner_8_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    100042: Holder_CourtyardInner_9_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    100044: Holder_WaterEdge_0
+    100046: Holder_WaterEdge_10_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    100048: Holder_WaterEdge_11_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    100050: Holder_WaterEdge_1_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    100052: Holder_WaterEdge_2_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    100054: Holder_WaterEdge_3_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    100056: Holder_WaterEdge_4_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    100058: Holder_WaterEdge_5_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    100060: Holder_WaterEdge_6_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    100062: Holder_WaterEdge_7_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    100064: Holder_WaterEdge_8_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    100066: Holder_WaterEdge_9_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    100068: Platonic_5_Cube
+    100070: Platonic_5_Cube_1
+    100072: Platonic_5_Cube_1_2
+    100074: Platonic_5_Cube_2
+    100076: Platonic_5_Cube_3
+    100078: Platonic_5_Cube_4
+    100080: Scaledown
+    100082: WaterDiscBottom
+    100084: WaterEdge_2
+    100086: WaterWrap
+    100088: WaterWrapLathe
+    400000: //RootNode
+    400002: Boole_1
+    400004: Cloner_CourtyardInner
+    400006: Cloner_WaterEdge
+    400008: CourtyardInner
+    400010: CourtyardInner_2
+    400012: CutBottom
+    400014: ExtrudeWaterEdge
+    400016: ExtrudeWaterSink
+    400018: Focus
+    400020: Holder_CourtyardInner_0
+    400022: Holder_CourtyardInner_10_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    400024: Holder_CourtyardInner_11_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    400026: Holder_CourtyardInner_1_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    400028: Holder_CourtyardInner_2_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    400030: Holder_CourtyardInner_3_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    400032: Holder_CourtyardInner_4_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    400034: Holder_CourtyardInner_5_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    400036: Holder_CourtyardInner_6_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    400038: Holder_CourtyardInner_7_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    400040: Holder_CourtyardInner_8_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    400042: Holder_CourtyardInner_9_^CourtyardWater@Cloner_CourtyardInner@Holder_CourtyardInner_0^
+    400044: Holder_WaterEdge_0
+    400046: Holder_WaterEdge_10_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    400048: Holder_WaterEdge_11_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    400050: Holder_WaterEdge_1_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    400052: Holder_WaterEdge_2_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    400054: Holder_WaterEdge_3_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    400056: Holder_WaterEdge_4_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    400058: Holder_WaterEdge_5_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    400060: Holder_WaterEdge_6_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    400062: Holder_WaterEdge_7_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    400064: Holder_WaterEdge_8_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    400066: Holder_WaterEdge_9_^CourtyardWater@Cloner_WaterEdge@Holder_WaterEdge_0^
+    400068: Platonic_5_Cube
+    400070: Platonic_5_Cube_1
+    400072: Platonic_5_Cube_1_2
+    400074: Platonic_5_Cube_2
+    400076: Platonic_5_Cube_3
+    400078: Platonic_5_Cube_4
+    400080: Scaledown
+    400082: WaterDiscBottom
+    400084: WaterEdge_2
+    400086: WaterWrap
+    400088: WaterWrapLathe
+    2300000: CourtyardInner_2
+    2300002: ExtrudeWaterEdge
+    2300004: ExtrudeWaterSink
+    2300006: Platonic_5_Cube_1_2
+    2300008: Platonic_5_Cube_2
+    2300010: Platonic_5_Cube_4
+    2300012: WaterDiscBottom
+    2300014: WaterWrapLathe
+    3300000: CourtyardInner_2
+    3300002: ExtrudeWaterEdge
+    3300004: ExtrudeWaterSink
+    3300006: Platonic_5_Cube_1_2
+    3300008: Platonic_5_Cube_2
+    3300010: Platonic_5_Cube_4
+    3300012: WaterDiscBottom
+    3300014: WaterWrapLathe
+    4300000: CourtyardInner_2
+    4300002: WaterDiscBottom
+    4300004: Platonic_5_Cube_2
+    4300006: Platonic_5_Cube_4
+    4300008: Platonic_5_Cube_1_2
+    4300010: WaterWrapLathe
+    4300012: ExtrudeWaterEdge
+    4300014: ExtrudeWaterSink
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

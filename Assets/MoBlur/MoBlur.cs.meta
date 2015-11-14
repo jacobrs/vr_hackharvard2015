@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3894f9ca4eb7b5940b7c4416ad7117e2
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - shader: {fileID: 4800000, guid: afa30444b165a8542a9ba1ccac9bbce1, type: 3}
+  - velocityRigidShader: {fileID: 4800000, guid: ed173017f13fdb74280e18c44d79ee06,
+      type: 3}
+  - velocitySkinnedShader: {fileID: 4800000, guid: 838d1a62f2299074f9bdc3489a76bec1,
+      type: 3}
+  - velocityStaticShader: {fileID: 4800000, guid: 3c1c25246290e3042b008a26f21afe07,
+      type: 3}
+  - tileMaxShader: {fileID: 4800000, guid: ee577745eb49ac341b4713e61062c692, type: 3}
+  - neighbourMaxShader: {fileID: 4800000, guid: 418d8715e01d3d945876708e4eee769e,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 

@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: d4ee2edacf937a940975930e65c4cf81
+timeCreated: 1440504854
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cloner_Columns
+    100004: Cloner_ColumnsB
+    100006: Cloner_ColumnsB_Instance_^Cloner_Columns@ColumnsHolder@Cloner_ColumnsB^
+    100008: ColumnBeveler
+    100010: ColumnBeveler_2
+    100012: ColumnFixed
+    100014: ColumnFixed_2
+    100016: ColumnHere
+    100018: ColumnHere_2
+    100020: ColumnsHolder_0
+    100022: ColumnsHolder_1_^Calatrava@Cloner_Columns@ColumnsHolder_0^
+    100024: ColumnsHolder_2_^Calatrava@Cloner_Columns@ColumnsHolder_0^
+    100026: Holder_Columns_0
+    100028: Holder_Columns_2_^ColumnsHolder_0@Cloner_ColumnsB@Holder_Columns_0^
+    100030: Holder_Columns_DuplicatedAndFlipped_1
+    100032: Holder_Columns_DuplicatedAndFlipped_3_^ColumnsHolder_0@Cloner_ColumnsB@Holder_Columns_DuplicatedAndFlipped_1^
+    100034: LowPoly_Maya_4
+    100036: LowPoly_Maya_4_2
+    100038: column_low_pCube1_1
+    100040: column_low_pCube1_1_2
+    100042: column_low_pCube1_2
+    100044: column_low_pCube1_2_2
+    400000: //RootNode
+    400002: Cloner_Columns
+    400004: Cloner_ColumnsB
+    400006: Cloner_ColumnsB_Instance_^Cloner_Columns@ColumnsHolder@Cloner_ColumnsB^
+    400008: ColumnBeveler
+    400010: ColumnBeveler_2
+    400012: ColumnFixed
+    400014: ColumnFixed_2
+    400016: ColumnHere
+    400018: ColumnHere_2
+    400020: ColumnsHolder_0
+    400022: ColumnsHolder_1_^Calatrava@Cloner_Columns@ColumnsHolder_0^
+    400024: ColumnsHolder_2_^Calatrava@Cloner_Columns@ColumnsHolder_0^
+    400026: Holder_Columns_0
+    400028: Holder_Columns_2_^ColumnsHolder_0@Cloner_ColumnsB@Holder_Columns_0^
+    400030: Holder_Columns_DuplicatedAndFlipped_1
+    400032: Holder_Columns_DuplicatedAndFlipped_3_^ColumnsHolder_0@Cloner_ColumnsB@Holder_Columns_DuplicatedAndFlipped_1^
+    400034: LowPoly_Maya_4
+    400036: LowPoly_Maya_4_2
+    400038: column_low_pCube1_1
+    400040: column_low_pCube1_1_2
+    400042: column_low_pCube1_2
+    400044: column_low_pCube1_2_2
+    2300000: LowPoly_Maya_4
+    2300002: LowPoly_Maya_4_2
+    2300004: column_low_pCube1_1
+    2300006: column_low_pCube1_1_2
+    2300008: column_low_pCube1_2
+    2300010: column_low_pCube1_2_2
+    3300000: LowPoly_Maya_4
+    3300002: LowPoly_Maya_4_2
+    3300004: column_low_pCube1_1
+    3300006: column_low_pCube1_1_2
+    3300008: column_low_pCube1_2
+    3300010: column_low_pCube1_2_2
+    4300000: LowPoly_Maya_4
+    4300002: LowPoly_Maya_4_2
+    4300004: column_low_pCube1_1
+    4300006: column_low_pCube1_1_2
+    4300008: column_low_pCube1_2
+    4300010: column_low_pCube1_2_2
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 0
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 1de225cef3167684f9065c72661b4927
+timeCreated: 1440504802
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cloner_CourtyardOuterLedge
+    100004: Cloner_CourtyardSteps
+    100006: Cloner_OuterFloor
+    100008: CourtyardSteps_3
+    100010: CourtyardSteps_4
+    100012: Holder_CourtyardSteps_0
+    100014: Holder_CourtyardSteps_1_^CourtyardSteps@Cloner_CourtyardSteps@Holder_CourtyardSteps_0^
+    100016: Holder_CourtyardSteps_2_^CourtyardSteps@Cloner_CourtyardSteps@Holder_CourtyardSteps_0^
+    100018: Holder_CourtyardSteps_3_^CourtyardSteps@Cloner_CourtyardSteps@Holder_CourtyardSteps_0^
+    100020: Holder_CourtyardSteps_4_^CourtyardSteps@Cloner_CourtyardSteps@Holder_CourtyardSteps_0^
+    100022: Holder_CourtyardSteps_5_^CourtyardSteps@Cloner_CourtyardSteps@Holder_CourtyardSteps_0^
+    100024: Holder_OuterFloor_0
+    100026: Holder_OuterFloor_1_^CourtyardSteps@Cloner_OuterFloor@Holder_OuterFloor_0^
+    100028: Holder_OuterFloor_2_^CourtyardSteps@Cloner_OuterFloor@Holder_OuterFloor_0^
+    100030: Holder_OuterFloor_3_^CourtyardSteps@Cloner_OuterFloor@Holder_OuterFloor_0^
+    100032: Holder_OuterFloor_4_^CourtyardSteps@Cloner_OuterFloor@Holder_OuterFloor_0^
+    100034: Holder_OuterFloor_5_^CourtyardSteps@Cloner_OuterFloor@Holder_OuterFloor_0^
+    100036: Holder_OuterLedge_0
+    100038: Holder_OuterLedge_1_^CourtyardSteps@Cloner_CourtyardOuterLedge@Holder_OuterLedge_0^
+    100040: Holder_OuterLedge_2_^CourtyardSteps@Cloner_CourtyardOuterLedge@Holder_OuterLedge_0^
+    100042: Holder_OuterLedge_3_^CourtyardSteps@Cloner_CourtyardOuterLedge@Holder_OuterLedge_0^
+    100044: Holder_OuterLedge_4_^CourtyardSteps@Cloner_CourtyardOuterLedge@Holder_OuterLedge_0^
+    100046: Holder_OuterLedge_5_^CourtyardSteps@Cloner_CourtyardOuterLedge@Holder_OuterLedge_0^
+    100048: Outer
+    100050: OuterFloor_6
+    100052: OuterLedge_2
+    100054: OuterLedge_3
+    100056: OuterLedge_3_2
+    100058: Scaledown
+    100060: Scaledown_2
+    100062: Scaledown_3
+    100064: OuterFloor_7
+    100066: OuterFloor_8
+    400000: //RootNode
+    400002: Cloner_CourtyardOuterLedge
+    400004: Cloner_CourtyardSteps
+    400006: Cloner_OuterFloor
+    400008: CourtyardSteps_3
+    400010: CourtyardSteps_4
+    400012: Holder_CourtyardSteps_0
+    400014: Holder_CourtyardSteps_1_^CourtyardSteps@Cloner_CourtyardSteps@Holder_CourtyardSteps_0^
+    400016: Holder_CourtyardSteps_2_^CourtyardSteps@Cloner_CourtyardSteps@Holder_CourtyardSteps_0^
+    400018: Holder_CourtyardSteps_3_^CourtyardSteps@Cloner_CourtyardSteps@Holder_CourtyardSteps_0^
+    400020: Holder_CourtyardSteps_4_^CourtyardSteps@Cloner_CourtyardSteps@Holder_CourtyardSteps_0^
+    400022: Holder_CourtyardSteps_5_^CourtyardSteps@Cloner_CourtyardSteps@Holder_CourtyardSteps_0^
+    400024: Holder_OuterFloor_0
+    400026: Holder_OuterFloor_1_^CourtyardSteps@Cloner_OuterFloor@Holder_OuterFloor_0^
+    400028: Holder_OuterFloor_2_^CourtyardSteps@Cloner_OuterFloor@Holder_OuterFloor_0^
+    400030: Holder_OuterFloor_3_^CourtyardSteps@Cloner_OuterFloor@Holder_OuterFloor_0^
+    400032: Holder_OuterFloor_4_^CourtyardSteps@Cloner_OuterFloor@Holder_OuterFloor_0^
+    400034: Holder_OuterFloor_5_^CourtyardSteps@Cloner_OuterFloor@Holder_OuterFloor_0^
+    400036: Holder_OuterLedge_0
+    400038: Holder_OuterLedge_1_^CourtyardSteps@Cloner_CourtyardOuterLedge@Holder_OuterLedge_0^
+    400040: Holder_OuterLedge_2_^CourtyardSteps@Cloner_CourtyardOuterLedge@Holder_OuterLedge_0^
+    400042: Holder_OuterLedge_3_^CourtyardSteps@Cloner_CourtyardOuterLedge@Holder_OuterLedge_0^
+    400044: Holder_OuterLedge_4_^CourtyardSteps@Cloner_CourtyardOuterLedge@Holder_OuterLedge_0^
+    400046: Holder_OuterLedge_5_^CourtyardSteps@Cloner_CourtyardOuterLedge@Holder_OuterLedge_0^
+    400048: Outer
+    400050: OuterFloor_6
+    400052: OuterLedge_2
+    400054: OuterLedge_3
+    400056: OuterLedge_3_2
+    400058: Scaledown
+    400060: Scaledown_2
+    400062: Scaledown_3
+    400064: OuterFloor_7
+    400066: OuterFloor_8
+    2300000: CourtyardSteps_4
+    2300002: OuterFloor_6
+    2300004: OuterLedge_3_2
+    2300006: OuterFloor_7
+    2300008: OuterFloor_8
+    3300000: CourtyardSteps_4
+    3300002: OuterFloor_6
+    3300004: OuterLedge_3_2
+    3300006: OuterFloor_7
+    3300008: OuterFloor_8
+    4300000: CourtyardSteps_4
+    4300002: OuterFloor_6
+    4300004: OuterLedge_3_2
+    4300006: OuterFloor_7
+    4300008: OuterFloor_8
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
