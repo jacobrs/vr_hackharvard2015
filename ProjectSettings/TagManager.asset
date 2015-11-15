@@ -10,7 +10,8 @@ TagManager:
   - Emissive_Guardian
   - Light1
   - Light2
-  - Alter
+  - Hands
+  - New Tag
   layers:
   - Default
   - TransparentFX

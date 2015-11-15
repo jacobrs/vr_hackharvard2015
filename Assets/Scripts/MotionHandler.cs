@@ -10,6 +10,9 @@ public class MotionHandler : MonoBehaviour {
   public float initialZoom = 0f;
   public float zoomAim = 0f;
 
+  public static bool wasTapped;
+  public static float timeSinceLastTap;
+
   void Start(){
     controller = new Controller();
     EnableGestures();
@@ -19,6 +22,9 @@ public class MotionHandler : MonoBehaviour {
     controller.EnableGesture(Gesture.GestureType.TYPESWIPE);
     controller.Config.SetFloat("Gesture.Swipe.MinLength", 100.0f);
     controller.Config.SetFloat("Gesture.Swipe.MinVelocity", 300f);
+    controller.EnableGesture (Gesture.GestureType.TYPE_SCREEN_TAP);
+    controller.Config.SetFloat("Gesture.ScreenTap.MinForwardVelocity", 10.0f);
+    controller.Config.SetFloat("Gesture.ScreenTap.MinDistance", 1.0f);
     controller.Config.Save();
   }
 
@@ -30,9 +36,21 @@ public class MotionHandler : MonoBehaviour {
       if(gesture.Type == Gesture.GestureType.TYPESWIPE){
         HandleSwipe(gesture);
       }
+      else if(gesture.Type == Gesture.GestureType.TYPE_SCREEN_TAP){
+        wasTapped = true;
+        timeSinceLastTap = Time.timeSinceLevelLoad;
+        if(CollisionHandler.lastCollision != Vector3.zero){
+          CollisionHandler.pendingTagLocation = CollisionHandler.lastCollision;
+          wasTapped = false;
+        }
+      }
     }
 		EvaluateHands(frame);
     MoveTowardsTarget();
+
+    if(Time.timeSinceLevelLoad - timeSinceLastTap >= 1 && wasTapped == true){
+      wasTapped = false;
+    }
 	}
 
   void HandleSwipe(Gesture gesture){
