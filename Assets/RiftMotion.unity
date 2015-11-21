@@ -169,7 +169,6 @@ GameObject:
   - 33: {fileID: 60217860}
   - 135: {fileID: 60217859}
   - 23: {fileID: 60217858}
-  - 114: {fileID: 60217861}
   m_Layer: 0
   m_Name: HydrogenR
   m_TagString: Untagged
@@ -232,17 +231,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 60217856}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &60217861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 60217856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 072a525cd2ea141e6a5122f7a36a67d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &106278707
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,9 +368,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 306233864}
-  - 114: {fileID: 306233865}
   - 54: {fileID: 306233866}
   - 114: {fileID: 306233867}
+  - 114: {fileID: 306233865}
   m_Layer: 0
   m_Name: WaterMolecule
   m_TagString: Untagged
@@ -415,7 +403,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 306233863}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 195881bc43cb345cfabfc700e14d3202, type: 3}
+  m_Script: {fileID: 11500000, guid: e82a8c3e14b3e473a9d35cc3c483d1b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: 0
@@ -423,6 +411,7 @@ MonoBehaviour:
   pendingZoom: 0
   initialZoom: 0
   zoomAim: 0
+  labelHost: {fileID: 181030, guid: 160a4a0d223dd4baa87b7308b17f53b5, type: 2}
 --- !u!54 &306233866
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -436,7 +425,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 46
+  m_Constraints: 14
   m_CollisionDetection: 0
 --- !u!114 &306233867
 MonoBehaviour:
@@ -446,9 +435,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 306233863}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 072a525cd2ea141e6a5122f7a36a67d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 4181e3fa2bf5f402b89b47f1dc4abf70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  labelHost: {fileID: 181030, guid: 160a4a0d223dd4baa87b7308b17f53b5, type: 2}
 --- !u!1 &391275031
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,7 +797,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!1 &1301809985
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,7 +882,6 @@ GameObject:
   - 33: {fileID: 1699695830}
   - 135: {fileID: 1699695829}
   - 23: {fileID: 1699695828}
-  - 114: {fileID: 1699695831}
   m_Layer: 0
   m_Name: HydrogenL
   m_TagString: Untagged
@@ -955,17 +944,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1699695826}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1699695831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1699695826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 072a525cd2ea141e6a5122f7a36a67d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1700806729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,7 +1041,6 @@ GameObject:
   - 33: {fileID: 1924140576}
   - 135: {fileID: 1924140575}
   - 23: {fileID: 1924140574}
-  - 114: {fileID: 1924140577}
   m_Layer: 0
   m_Name: Oxygen
   m_TagString: Untagged
@@ -1126,14 +1103,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1924140572}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1924140577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1924140572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 072a525cd2ea141e6a5122f7a36a67d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

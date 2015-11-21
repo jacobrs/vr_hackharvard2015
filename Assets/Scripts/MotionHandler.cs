@@ -9,9 +9,14 @@ public class MotionHandler : MonoBehaviour {
 	public float pendingZoom = 0f;
   public float initialZoom = 0f;
   public float zoomAim = 0f;
+  public GameObject labelHost;
 
+  public static bool lockedForTagging = false;
   public static bool wasTapped;
   public static float timeSinceLastTap;
+
+  // Name of the element being manipulated
+  public static string MainElemName = "WaterMolecule";
 
   void Start(){
     controller = new Controller();
@@ -33,23 +38,32 @@ public class MotionHandler : MonoBehaviour {
     GestureList gestures = frame.Gestures();
     for(int i = 0; i < gestures.Count; i++){
       Gesture gesture = gestures[i];
-      if(gesture.Type == Gesture.GestureType.TYPESWIPE){
-        HandleSwipe(gesture);
-      }
-      else if(gesture.Type == Gesture.GestureType.TYPE_SCREEN_TAP){
-        wasTapped = true;
-        timeSinceLastTap = Time.timeSinceLevelLoad;
-        if(CollisionHandler.lastCollision != Vector3.zero){
-          CollisionHandler.pendingTagLocation = CollisionHandler.lastCollision;
-          wasTapped = false;
+      if(!lockedForTagging){
+        if(gesture.Type == Gesture.GestureType.TYPESWIPE){
+          HandleSwipe(gesture);
         }
+        else if(gesture.Type == Gesture.GestureType.TYPE_SCREEN_TAP){
+          wasTapped = true;
+          timeSinceLastTap = Time.timeSinceLevelLoad;
+          if(CollisionHandler.lastCollision != Vector3.zero){
+            CollisionHandler.pendingTagLocation = CollisionHandler.lastCollision;
+            wasTapped = false;
+            CreateLabel();
+            lockedForTagging = true;
+          }
+        }
+      }else{
+        // look for a cancelling rotation
       }
     }
-		EvaluateHands(frame);
-    MoveTowardsTarget();
 
-    if(Time.timeSinceLevelLoad - timeSinceLastTap >= 1 && wasTapped == true){
-      wasTapped = false;
+    if(!lockedForTagging){
+  		EvaluateHands(frame);
+      MoveTowardsTarget();
+
+      if(Time.timeSinceLevelLoad - timeSinceLastTap >= 1 && wasTapped == true){
+        wasTapped = false;
+      }
     }
 	}
 
@@ -57,9 +71,7 @@ public class MotionHandler : MonoBehaviour {
     SwipeGesture Swipe = new SwipeGesture(gesture);
     Vector swipeDirection = Swipe.Direction;
     if(swipeDirection.x < 0){
-      //TriggerLeftSwipe(swipeDirection.x);
     } else if(swipeDirection.x > 0){
-      //TriggerRightSwipe(swipeDirection.x);
     }
   }
 
@@ -110,9 +122,9 @@ public class MotionHandler : MonoBehaviour {
     float speed = 0.2f;
     //move towards the center of the world (or where ever you like)
     Vector3 targetPosition = new Vector3(
-      GameObject.Find("WaterMolecule").transform.position.x ,
-      GameObject.Find("WaterMolecule").transform.position.y ,
-      Mathf.Max(-10.15f, GameObject.Find("WaterMolecule").transform.position.z + zoomAim));
+      GameObject.Find(MainElemName).transform.position.x ,
+      GameObject.Find(MainElemName).transform.position.y ,
+      Mathf.Max(-10.15f, GameObject.Find(MainElemName).transform.position.z + zoomAim));
 
     Vector3 currentPosition = this.transform.position;
     //first, check to see if we're close enough to the target
@@ -128,6 +140,32 @@ public class MotionHandler : MonoBehaviour {
             (directionOfTravel.z * speed * Time.deltaTime),
             Space.World);
     }
-}
+  }
+
+  public void CreateLabel(){
+    GameObject host = (GameObject) Instantiate(
+      labelHost, CollisionHandler.pendingTagLocation, Quaternion.identity);
+		host.transform.parent = GameObject.Find(MainElemName).transform;
+    host.AddComponent<GUIText>();
+    host.GetComponent<GUIText>();
+    LockRotation();
+	}
+
+  public static void LockRotation(){
+    GameObject.Find(MainElemName).GetComponent<Rigidbody>().constraints =
+      RigidbodyConstraints.FreezeRotationX |
+      RigidbodyConstraints.FreezeRotationY |
+      RigidbodyConstraints.FreezeRotationZ |
+      RigidbodyConstraints.FreezePositionY |
+      RigidbodyConstraints.FreezePositionX |
+      RigidbodyConstraints.FreezePositionZ ;
+  }
+
+  public static void UnlockRotation(){
+    GameObject.Find(MainElemName).GetComponent<Rigidbody>().constraints =
+    RigidbodyConstraints.FreezePositionY |
+    RigidbodyConstraints.FreezePositionX |
+    RigidbodyConstraints.FreezePositionZ ;
+  }
 
 }
